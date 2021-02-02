@@ -1,0 +1,18 @@
+#top-header {
+    width: auto;
+    background-color: white;
+    height: 65px;
+    padding: 0px;
+    display:flex;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+}
+#top-logo {
+    display: flex;
+    width: 92px;
+    height: 33px;
+    align-self: center;
+    margin-left: 30px;
+    margin-top: 5px;
+}
