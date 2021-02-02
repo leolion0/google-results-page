@@ -4,10 +4,46 @@
     height: 85px;
     padding: 20px 0px 20px 0px;
     display:flex;
+
+}
+#bottom-header {
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    height: 40px;
+    display: inline-block;
     border-bottom: 1px;
     border-bottom-style: solid;
     border-color: lightgray;
 }
+#search-tab-container {
+    list-style-type: none;
+    margin-left: 170px;
+    padding: 0px;
+    margin-top: 14px;
+    margin-bottom: 0px;
+    display: flex;
+    color: lightskyblue;
+    width: 653px;
+}
+.search-tab {
+    float: left;
+    border-bottom-style: solid;
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    font-family: "Arial";
+    
+
+}
+.search-tab > a {
+    color: grey;
+    text-decoration: none;
+}
+#settings {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: auto;
+}
+
 #top-logo {
     display: flex;
     width: 92px;
