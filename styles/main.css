@@ -74,3 +74,67 @@
     border-color: lightgrey;
 
 }
+
+#center-col {
+    width: 652px;
+    height: 1508px;
+    background-color: #fff;
+    margin: 0 264px 0 180px;
+}
+
+.result {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    color: #5f6368;
+    margin-bottom: 28px;
+}
+
+.result .result-title {
+    font-size: 20px;
+    color: 1a0dab;
+    text-decoration: none;
+    margin: 0;
+}
+.result .result-title:hover {
+    text-decoration: underline;
+}
+
+.result-title:visited {
+    color: #1a0dab
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #5f6368;
+}
+
+a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.main-url {
+    color: black
+}
+
+svg {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+}
+.dot-svg-container {
+    margin: 0px 15px;
+}
+
+.result-date {
+    display: inline;
+    flex-flow: row;
+}
+
+.result .result-info {
+    margin: 0px;
+    display: inline;
+}
